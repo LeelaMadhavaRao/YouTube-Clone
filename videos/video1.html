@@ -1,85 +1,148 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="./../CSS/video.css">
-    <title>video1</title>
-  </head>
-  <body>
-     <div class="main">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vSNtifE0Z2Q?si=NSzfdjx65BgBU4kV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
-            <h1>How NASA Reinvented The Wheel</h1> 
-            <div class="channel" >
-               <div class="channel-desc">
-                 <img onclick="window.location.href='./../channels/channel1.html';" src="https://yt3.googleusercontent.com/ytc/AIdro_nSatGjGLZG1_O1ztYxuKvRazCbk9A0kPhtt2NxEH4ZKfA=s176-c-k-c0x00ffffff-no-rj" class="logo">
-                 <h2 style="display: inline-flex;align-items: center;" onclick="window.location.href='./../channels/channel1.html';">Veritasium<svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#"><path d="m429-336 238-237-51-51-187 186-85-84-51 51 136 135Zm51 240q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm0-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"/></svg></h2>
-                 <button onclick="document.getElementById('YouTube.Subscribe').innerHTML='Subscribed';" id="YouTube.Subscribe">Subscribe</button>
-               </div>
-                <div class="a">
-                    <button style="display: inline-flex;justify-content: space-around;align-items: center;" onclick="alert('Liked the video');"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#"><path d="M720-144H264v-480l288-288 32 22q17 12 26 30.5t5 38.5l-1 5-38 192h264q30 0 51 21t21 51v57q0 8-1.5 14.5T906-467L786.93-187.8Q778-168 760-156t-40 12Zm-384-72h384l120-279v-57H488l49-243-201 201v378Zm0-378v378-378Zm-72-30v72H120v336h144v72H48v-480h216Z"/></svg>Like</button>
-                    <button style="display: inline-flex;justify-content: space-around;align-items: center;" onclick="alert('Disliked the video');"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#"><path d="M240-816h456v480L408-48l-32-22q-17-12-26-30.5t-5-38.5l1-5 38-192H120q-30 0-51-21t-21-51v-57q0-8 1.5-14.5T54-493l119-279q8-20 26.5-32t40.5-12Zm384 72H240L120-465v57h352l-49 243 201-201v-378Zm0 378v-378 378Zm72 30v-72h144v-336H696v-72h216v480H696Z"/></svg>Dislike</button>
-                    <button style="display: inline-flex;justify-content: space-around;align-items: center;" onclick="alert('linked copied to clipboard');"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#"><path d="M696-96q-50 0-85-35t-35-85q0-8 1-14.5t3-14.5L342-390q-15 16-35.35 23-20.36 7-42.65 7-50 0-85-35t-35-85q0-50 35-85t85-35q22 0 42.5 7.5T342-570l238-145q-2-8-3-14.5t-1-14.5q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-22.29 0-42.65-7Q633-638 618-654L380-509q2 8 3 14.5t1 14.5q0 8-1 14.5t-3 14.5l238 145q15-17 35.35-23.5Q673.71-336 696-336q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-600q20.4 0 34.2-13.8Q744-723.6 744-744q0-20.4-13.8-34.2Q716.4-792 696-792q-20.4 0-34.2 13.8Q648-764.4 648-744q0 20.4 13.8 34.2Q675.6-696 696-696ZM264-432q20.4 0 34.2-13.8Q312-459.6 312-480q0-20.4-13.8-34.2Q284.4-528 264-528q-20.4 0-34.2 13.8Q216-500.4 216-480q0 20.4 13.8 34.2Q243.6-432 264-432Zm432 264q20.4 0 34.2-13.8Q744-195.6 744-216q0-20.4-13.8-34.2Q716.4-264 696-264q-20.4 0-34.2 13.8Q648-236.4 648-216q0 20.4 13.8 34.2Q675.6-168 696-168Zm0-576ZM264-480Zm432 264Z"/></svg>Share</button>
-                    <button style="display: inline-flex;justify-content: space-around;align-items: center;" onclick="alert('downloading');"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#"><path d="M480-336 288-528l51-51 105 105v-342h72v342l105-105 51 51-192 192ZM263.72-192Q234-192 213-213.15T192-264v-72h72v72h432v-72h72v72q0 29.7-21.16 50.85Q725.68-192 695.96-192H263.72Z"/></svg>Download</button>
-                </div>      
+<head>
+   <link rel="stylesheet" href="./../CSS/video.css">
+   <title>video1</title>
+   <script>
+      Like = 0;
+      function LikeVideo() {
+         if (Like == 0) {
+            document.getElementById('Button.Like').innerHTML = '<img src="./../img/alt-like-fill.svg">Liked';
+            Like = 1;
+         } else {
+            document.getElementById('Button.Like').innerHTML = '<img src="./../img/alt-like-empty.svg">Like';
+            Like = 0;
+         }
+      }
+      DisLike = 0;
+      function DisLikeVideo() {
+         if (Like == 0) {
+            document.getElementById('Button.DisLike').innerHTML = '<img src="./../img/alt-dis-like-fill.svg">DisLiked';
+            Like = 1;
+         } else {
+            document.getElementById('Button.DisLike').innerHTML = '<img src="./../img/alt-dislike-empty.svg">DisLike';
+            Like = 0;
+         }
+      }
+   </script>
+</head>
+<body>
+   <div class="main">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vSNtifE0Z2Q?si=NSzfdjx65BgBU4kV&autoplay=1"
+         title="YouTube video player" frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h1 class="Title">How NASA Reinvented The Wheel</h1>
+      <div class="channel">
+         <div class="channel-desc">
+            <img onclick="window.location.href='./../channels/channel1.html';"
+               src="https://yt3.googleusercontent.com/ytc/AIdro_nSatGjGLZG1_O1ztYxuKvRazCbk9A0kPhtt2NxEH4ZKfA=s176-c-k-c0x00ffffff-no-rj"
+               class="logo">
+            <h2 class="channel-name" style="display: inline-flex;align-items: center;"
+               onclick="window.location.href='./../channels/channel1.html';">Veritasium<svg
+                  xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#">
+                  <path
+                     d="m429-336 238-237-51-51-187 186-85-84-51 51 136 135Zm51 240q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm0-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" />
+               </svg></h2>
+            <button onclick="document.getElementById('YouTube.Subscribe').innerHTML='Subscribed';"
+               id="YouTube.Subscribe">Subscribe</button>
+         </div>
+         <div class="a">
+            <button id="Button.Like" onclick="LikeVideo()"><img src="./../img/alt-like-empty.svg">Like</button>
+            <button id="Button.DisLike" onclick="DisLikeVideo()"><img
+                  src="./../img/alt-dislike-empty.svg">Dislike</button>
+            <button onclick="alert('linked copied to clipboard');"> <img src="./../img/alt-share.svg"> Share</button>
+            <button style="margin-right: 20px;" onclick="alert('downloading');"><svg xmlns="http://www.w3.org/2000/svg"
+                  height="20px" viewBox="0 -960 960 960" width="20px" fill="#">
+                  <path
+                     d="M480-336 288-528l51-51 105 105v-342h72v342l105-105 51 51-192 192ZM263.72-192Q234-192 213-213.15T192-264v-72h72v72h432v-72h72v72q0 29.7-21.16 50.85Q725.68-192 695.96-192H263.72Z" />
+               </svg>Download</button>
+         </div>
+      </div>
+   </div>
+   <h2>Comment</h2>
+   <textarea style="width: 500px;">Comment</textarea>
+   <h1>Some other videos :</h1>
+   <div class="list">
+      <div class="list1" onclick="window.location.href='./../videos/video2.html';">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/jg7JxIzg0Qc?si=j53edP5_yOzWFDH7"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autplay="1"></iframe>
+         <div class="about">
+            <h2>Dhasaavathaaram (Telugu) - Rayini Maatram Video | Kamal Haasan, Asin | Himesh</h2>
+            <p>83M views - 9 years ago</p>
+            <div class="channel-desc">
+               <img onclick="window.location.href='./../channels/channel2.html';"
+                  src="https://yt3.googleusercontent.com/3_butsQOkk3wsRkHEEq1RY5WyXPsuMqC4WDPtue86DWLVvf4_H1U2qQIKTQtjrzLV6tDqEDkHA=s176-c-k-c0x00ffffff-no-rj"
+                  class="logo">
+               <h2 onclick="window.location.href='./../channels/channel2.html';">Volga Video</h2>
             </div>
-     </div>
-            <h2>Comment</h2>
-            <textarea style="width: 500px;">Comment</textarea>    
-            <h1>Some other videos :</h1>
-            <div class="list">
-                <div class="list1" onclick="window.location.href='./../videos/video2.html';">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jg7JxIzg0Qc?si=j53edP5_yOzWFDH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="about">
-                      <h2>Dhasaavathaaram (Telugu) - Rayini Maatram Video | Kamal Haasan, Asin | Himesh</h2>
-                      <p>83M views - 9 years ago</p>
-                      <div class="channel-desc">
-                         <img onclick="window.location.href='./../channels/channel2.html';" src="https://yt3.googleusercontent.com/3_butsQOkk3wsRkHEEq1RY5WyXPsuMqC4WDPtue86DWLVvf4_H1U2qQIKTQtjrzLV6tDqEDkHA=s176-c-k-c0x00ffffff-no-rj" class="logo">
-                         <h2 onclick="window.location.href='./../channels/channel2.html';">Volga Video</h2> 
-                      </div>
-                   </div>
-                </div>
-                <div class="list2" onclick="window.location.href='./../videos/video3.html';">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bUpKw9WmP7w?si=hjdcmuS67YLKy5wy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="about">
-                      <h2>Proposal 14 Trust</h2>
-                      <p>376 views - 3 years ago</p>
-                      <div class="channel-desc">
-                         <img onclick="window.location.href='./../channels/channel3.html';" src="https://yt3.googleusercontent.com/ytc/AIdro_msSMGUURGh_VYtkGUlsVeulJ4l8xHynpq5Fl6DRUsMTQ=s176-c-k-c0x00ffffff-no-rj" class="logo">
-                         <h2 onclick="window.location.href='./../channels/channel3.html';">Universal Human Values</h2> 
-                      </div>
-                   </div>
-                </div>
-            
-                <div class="list3" onclick="window.location.href='./../videos/video4.html';">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NoQcdKVL7W0?si=u9ZdRYQhhnDoZxcp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="about">
-                      <h2>Proposal 15 Respect</h2>
-                      <p>401 views - 3 years ago</p>
-                      <div class="channel-desc">
-                         <img onclick="window.location.href='./../channels/channel3.html';" src="https://yt3.googleusercontent.com/ytc/AIdro_msSMGUURGh_VYtkGUlsVeulJ4l8xHynpq5Fl6DRUsMTQ=s176-c-k-c0x00ffffff-no-rj" class="logo">
-                         <h2 onclick="window.location.href='./../channels/channel3.html';">Universal Human Values</h2> 
-                      </div>
-                    </div>
-                </div>
-                <div class="list4" onclick="window.location.href='./../videos/video5.html';">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MM47fDyGqX8?si=HZMYekw3YM-FHuN9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="about">
-                      <h2>Aanandam Latest Telugu Full Length Movie | Arun Kurian, Thomas Mathew, Roshan Mathew</h2>
-                      <p>10M views - 6 years ago</p>
-                      <div class="channel-desc">
-                         <img onclick="window.location.href='./../channels/channel2.html';" src="https://yt3.googleusercontent.com/3_butsQOkk3wsRkHEEq1RY5WyXPsuMqC4WDPtue86DWLVvf4_H1U2qQIKTQtjrzLV6tDqEDkHA=s176-c-k-c0x00ffffff-no-rj" class="logo">
-                         <h2 onclick="window.location.href='./../channels/channel2.html';">Volga Video</h2> 
-                      </div>
-                    </div>
-                </div>
-                <div class="list4" onclick="window.location.href='./../videos/video6.html';">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wD_6QsP7JCQ?si=IsL4AHdeQuyNAGP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <div class="about">
-                      <h2>Oye Video Songs | Seheri Video Song | Siddharth, Shamili | Sri Balaji Video</h2>
-                      <p>1.7M views - 10 years ago</p>
-                      <div class="channel-desc">
-                         <img onclick="window.location.href='./../channels/channel2.html';" src="https://yt3.googleusercontent.com/3_butsQOkk3wsRkHEEq1RY5WyXPsuMqC4WDPtue86DWLVvf4_H1U2qQIKTQtjrzLV6tDqEDkHA=s176-c-k-c0x00ffffff-no-rj" class="logo">
-                         <h2 onclick="window.location.href='./../channels/channel2.html';">Volga Video</h2> 
-                      </div>
-                    </div>
-                </div>
-  </body>
+         </div>
+      </div>
+      <div class="list2" onclick="window.location.href='./../videos/video3.html';">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/bUpKw9WmP7w?si=hjdcmuS67YLKy5wy"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <div class="about">
+            <h2>Proposal 14 Trust</h2>
+            <p>376 views - 3 years ago</p>
+            <div class="channel-desc">
+               <img onclick="window.location.href='./../channels/channel3.html';"
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_msSMGUURGh_VYtkGUlsVeulJ4l8xHynpq5Fl6DRUsMTQ=s176-c-k-c0x00ffffff-no-rj"
+                  class="logo">
+               <h2 onclick="window.location.href='./../channels/channel3.html';">Universal Human Values</h2>
+            </div>
+         </div>
+      </div>
+      <div class="list3" onclick="window.location.href='./../videos/video4.html';">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/NoQcdKVL7W0?si=u9ZdRYQhhnDoZxcp"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <div class="about">
+            <h2>Proposal 15 Respect</h2>
+            <p>401 views - 3 years ago</p>
+            <div class="channel-desc">
+               <img onclick="window.location.href='./../channels/channel3.html';"
+                  src="https://yt3.googleusercontent.com/ytc/AIdro_msSMGUURGh_VYtkGUlsVeulJ4l8xHynpq5Fl6DRUsMTQ=s176-c-k-c0x00ffffff-no-rj"
+                  class="logo">
+               <h2 onclick="window.location.href='./../channels/channel3.html';">Universal Human Values</h2>
+            </div>
+         </div>
+      </div>
+      <div class="list4" onclick="window.location.href='./../videos/video5.html';">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/MM47fDyGqX8?si=HZMYekw3YM-FHuN9"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <div class="about">
+            <h2>Aanandam Latest Telugu Full Length Movie | Arun Kurian, Thomas Mathew, Roshan Mathew</h2>
+            <p>10M views - 6 years ago</p>
+            <div class="channel-desc">
+               <img onclick="window.location.href='./../channels/channel2.html';"
+                  src="https://yt3.googleusercontent.com/3_butsQOkk3wsRkHEEq1RY5WyXPsuMqC4WDPtue86DWLVvf4_H1U2qQIKTQtjrzLV6tDqEDkHA=s176-c-k-c0x00ffffff-no-rj"
+                  class="logo">
+               <h2 onclick="window.location.href='./../channels/channel2.html';">Volga Video</h2>
+            </div>
+         </div>
+      </div>
+      <div class="list4" onclick="window.location.href='./../videos/video6.html';">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/wD_6QsP7JCQ?si=IsL4AHdeQuyNAGP3"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <div class="about">
+            <h2>Oye Video Songs | Seheri Video Song | Siddharth, Shamili | Sri Balaji Video</h2>
+            <p>1.7M views - 10 years ago</p>
+            <div class="channel-desc">
+               <img onclick="window.location.href='./../channels/channel2.html';"
+                  src="https://yt3.googleusercontent.com/3_butsQOkk3wsRkHEEq1RY5WyXPsuMqC4WDPtue86DWLVvf4_H1U2qQIKTQtjrzLV6tDqEDkHA=s176-c-k-c0x00ffffff-no-rj"
+                  class="logo">
+               <h2 onclick="window.location.href='./../channels/channel2.html';">Volga Video</h2>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
 </html>
