@@ -6,7 +6,7 @@ A Youtube UI Clone with Some Basic Functtionalities.
 
 ## Features
 
-- Working on feature (Will be Updated Soon)
+- Working on features (Will be Updated Soon)
 
 
 ## Demo
