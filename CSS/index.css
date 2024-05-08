@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    font-family: Verdana;
 }
 body{
     background-color: black;
@@ -27,7 +28,7 @@ body{
     height: 100%;
     width: auto;
     flex-grow: 6;
-    background-color: burlywood;
+    background-color: white;
 }
 .Scroll-Container{
     width: 100%;
