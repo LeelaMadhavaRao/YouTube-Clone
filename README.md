@@ -1,5 +1,5 @@
 
-# Youtube Clone
+# YouTube Clone
 
 A Youtube UI Clone with Some Basic Functtionalities.
 
