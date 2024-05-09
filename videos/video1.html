@@ -26,6 +26,22 @@
    </script>
 </head>
 <body>
+   <div class="Nav-Header">
+      <div class="nav-logo">
+         <img class="cu-p" src="./../img/alt-ham-burger.svg">
+         <img class="cu-p" src="./../img/YouTube-Logo.png" width="80px">
+      </div>
+      <div class="search-bar">
+         <input type="text" placeholder="Search">
+         <button class="cu-p"><img src="./../img/alt-search.svg" width="20px"></button>
+      </div>
+      <div class="action-buttons">
+         <img class="cu-p" src="./../img/alt-video-cam.svg">
+         <img class="cu-p" src="./../img/alt-grid.svg">
+         <img class="cu-p" src="./../img/alt-notification-bell.svg">
+         <div class="profile-photo cu-p"></div>
+      </div>
+   </div>
    <div class="main">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/vSNtifE0Z2Q?si=NSzfdjx65BgBU4kV&autoplay=1"
          title="YouTube video player" frameborder="0"
@@ -43,23 +59,22 @@
                   <path
                      d="m429-336 238-237-51-51-187 186-85-84-51 51 136 135Zm51 240q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm0-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z" />
                </svg></h2>
-            <button onclick="document.getElementById('YouTube.Subscribe').innerHTML='Subscribed';"
+            <button class="button" onclick="document.getElementById('YouTube.Subscribe').innerHTML='Subscribed';"
                id="YouTube.Subscribe">Subscribe</button>
          </div>
          <div class="a">
-            <button id="Button.Like" onclick="LikeVideo()"><img src="./../img/alt-like-empty.svg">Like</button>
-            <button id="Button.DisLike" onclick="DisLikeVideo()"><img
+            <button class="button" id="Button.Like" onclick="LikeVideo()"><img src="./../img/alt-like-empty.svg">Like</button>
+            <button class="button" id="Button.DisLike" onclick="DisLikeVideo()"><img
                   src="./../img/alt-dislike-empty.svg">Dislike</button>
-            <button onclick="alert('linked copied to clipboard');"> <img src="./../img/alt-share.svg"> Share</button>
-            <button style="margin-right: 20px;" onclick="alert('downloading');"><svg xmlns="http://www.w3.org/2000/svg"
+            <button class="button" onclick="alert('linked copied to clipboard');"> <img src="./../img/alt-share.svg"> Share</button>
+            <button class="button" style="margin-right: 20px;" onclick="alert('downloading');"><svg xmlns="http://www.w3.org/2000/svg"
                   height="20px" viewBox="0 -960 960 960" width="20px" fill="#">
                   <path
                      d="M480-336 288-528l51-51 105 105v-342h72v342l105-105 51 51-192 192ZM263.72-192Q234-192 213-213.15T192-264v-72h72v72h432v-72h72v72q0 29.7-21.16 50.85Q725.68-192 695.96-192H263.72Z" />
                </svg>Download</button>
          </div>
       </div>
-   </div>
-   <h2>Comment</h2>
+      <h2>Comment</h2>
    <textarea style="width: 500px;">Comment</textarea>
    <h1>Some other videos :</h1>
    <div class="list" >
@@ -129,5 +144,7 @@
          </div>
       </div>
    </div>
+   </div>
+   
 </body>
 </html>

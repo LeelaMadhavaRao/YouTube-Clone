@@ -12,9 +12,13 @@ body{
     font-weight: 700;
     line-height: 28px;
     padding: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
-
+.main{
+    width: 100%;
+    height: 92%;
+    overflow-y: scroll;
+}
 iframe{
     width: 100%;
     height:75%;
@@ -33,7 +37,7 @@ iframe{
     display: flex;
 }
 
-button{
+.button{
     display: inline;
     width: 120px;
     height: 28px;
@@ -69,4 +73,60 @@ padding: 10px;
 .about{
     padding-top: 20px;
     padding-left: 20px;
+}
+.Nav-Header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    height: 100%;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-bar{
+    height: 100%;
+    width: 600px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action-buttons{
+    height: 100%;
+    width: 250px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-photo{
+    background-color: blueviolet;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+.search-bar input{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    border: #E8EAED 2px solid;
+    font-size: 16px;
+}
+.search-bar button{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: #E8EAED 2px solid;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.cu-p{
+    cursor: pointer;
 }
