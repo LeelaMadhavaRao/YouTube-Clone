@@ -130,3 +130,8 @@ padding: 10px;
 .cu-p{
     cursor: pointer;
 }
+a img{
+    width: 20px;
+    height: 50px;
+    padding-left: 50%;
+}
