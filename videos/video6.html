@@ -27,9 +27,9 @@
 </head>
 <body>
    <div class="Nav-Header">
-      <div class="nav-logo" onclick="window.location.href='./index.html';">
+      <div class="nav-logo">
          <img class="cu-p" src="./../img/alt-ham-burger.svg">
-         <img class="cu-p" src="./../img/YouTube-Logo.png" width="80px">
+         <img onclick="window.location.href='./../index.html';" class="cu-p" src="./../img/YouTube-Logo.png" width="80px">
       </div>
       <div class="search-bar">
          <input type="text" placeholder="Search">
@@ -42,7 +42,7 @@
          <div class="profile-photo cu-p"></div>
       </div>
    </div>
-   <div class="main">
+   <div class="main" id="Main">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wD_6QsP7JCQ?si=f4L9koMChiZ0oDvc&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       <h1 class="Title">Oye Video Songs | Seheri Video Song | Siddharth, Shamili | Sri Balaji Video</h1>
       <div class="channel">
@@ -143,7 +143,7 @@
    </div>
    </div>
    <footer>
-      <a href="./video6.html" ><img src="./../img/arrow-up-circle-fill.svg"></a>
+      <a href="#" onclick="document.getElementById('Main').scrollTop = 0" ><img src="./../img/arrow-up-circle-fill.svg"></a>
    </footer>
 </body>
 </html>
