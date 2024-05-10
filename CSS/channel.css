@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0;
+}
+.Nav-Header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    height: 100%;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search-bar{
+    height: 100%;
+    width: 600px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action-buttons{
+    height: 100%;
+    width: 250px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-photo{
+    background-color: blueviolet;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+.search-bar input{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    border: #E8EAED 2px solid;
+    font-size: 16px;
+}
+.search-bar button{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: #E8EAED 2px solid;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.cu-p{
+    cursor: pointer;
+}
+ 
+.channel-desc{
+    margin:50px;
+    display: flex;
+
+}
+.button{
+    display: inline;
+    width: 120px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    background-color: black;
+    color: #F2F2F2;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    margin-left: 25px;
+}
+
+.list-cont{
+    margin: 75px;
+    display: flex;
+    height: 650px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.list{
+    
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+a img{
+    width: 20px;
+    height: 50px;
+    padding-left: 50%;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px;
+    
+}
