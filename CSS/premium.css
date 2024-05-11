@@ -67,12 +67,16 @@ body{
     display: inline-flex;
 }
 
-.payment{
-    margin-left: 625px;
+.payment-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
     
 }
 .about{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 20px;
 }
 
