@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    font-family: Verdana;
+}
+body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+}
+.Top-Nav-Bar{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.Wrapper{
+    width: 100%;
+    height: 92%;
+    background-color: white;
+    display: flex;
+}
+.Side-Nav-Bar{
+    height: 100%;
+    width: auto;
+    flex-grow: 1.5;
+    background-color: blanchedalmond;
+}
+.Main-Content{
+    height: 100%;
+    width: auto;
+    flex-grow: 6;
+    background-color: white;
+}
+.Scroll-Container{
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+}
+.Recomended-Videos{
+    width: 100%;
+    height: 94%;
+}
