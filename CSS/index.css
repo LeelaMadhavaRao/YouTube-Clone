@@ -144,9 +144,19 @@ p{
     float: right;
     width: 94%;
 }
+.action-buttons{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .profile-photo{
     background-color: blueviolet;
     height: 25px;
     width: 25px;
     border-radius: 100%;
+}
+.cu-p{
+    cursor: pointer;
 }
