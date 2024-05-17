@@ -81,11 +81,7 @@ p{
 .search{
    display: flex;
 }
-.corner{
-    display:grid;
-    margin-right: -50px;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 
 
@@ -118,19 +114,9 @@ p{
     margin-left: 250px;
     
 }
-.mic img{
-    margin-top: 8px;
-    height: 20px;
-    width: 20px;
 
-}
-.corner img{
-    margin-left: 120px;
 
-}
-.corner{
-    margin-left:200px;
-}
+
 .menu{
     
     float: left ;
