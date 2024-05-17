@@ -144,3 +144,9 @@ p{
     float: right;
     width: 94%;
 }
+.profile-photo{
+    background-color: blueviolet;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
