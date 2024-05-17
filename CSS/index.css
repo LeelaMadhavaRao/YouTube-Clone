@@ -10,14 +10,10 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
-    margin-top: 5px;
+    margin-top: 75px;
     background-color: smoke white;
 }
-.top {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-}
+
 .part {
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -35,10 +31,7 @@ body{
     margin-bottom: 6px;
     font-size: 16px;
 }
-.main1 img:hover {
-    transition: 0.3s ease;
-    background-color: transparent;
-}
+
 .thumbnail-1 {
     width: 100%;
     margin-bottom: 10px;
@@ -77,18 +70,8 @@ p {
 .flex1 {
     margin-right: -100px;
 }
-.login a {
-    border: 2px solid black;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-.login {
-    margin-top: 15px;
-    /* margin-left: 800px; */
-    float: right;
-    margin-right: -600px;
-}
+
+
 .mic {
     margin-top: 18px;
     margin-left: -3px;
@@ -108,6 +91,12 @@ p {
 }
 .menu div {
     margin-left: 15px;
+    
+    
+}
+.menu{
+    margin-top: 45px;
+    position: fixed;
 }
 .total {
     float: right;
@@ -139,6 +128,7 @@ p {
 .cu-p {
     cursor: pointer;
 }
+
 .Nav-Header{
     width: 100%;
     height: 50px;
@@ -146,6 +136,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    
 }
 .nav-logo{
     height: 100%;
@@ -158,6 +150,7 @@ p {
     height: 100%;
     width: 600px;
     /* background-color: bisque; */
+    margin-left: 355px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,7 +163,7 @@ p {
     align-items: center;
     justify-content: space-around;
 }
-.profile-photo{
+.profile-photo a{
     background-color: blueviolet;
     height: 25px;
     width: 25px;
@@ -185,7 +178,7 @@ p {
 }
 .search-bar button{
     width: 80px;
-    height: 30px;
+    height: 35px;
     background-color: white;
     border: #E8EAED 2px solid;
 }
@@ -193,4 +186,8 @@ p {
     width: 30px;
     height: 30px;
     margin-top: 30px;
+    cursor: pointer;
+}
+.main1, .main2, .main3, .main4, .main5, .main6{
+    cursor: pointer;
 }
