@@ -4,7 +4,8 @@
     column-gap: 20px;
     row-gap: 20px;
     margin-top: 5px;
-background-color:smoke white;
+    background-color:smoke white;
+    
 }
 .top{
     display: grid;
@@ -78,9 +79,7 @@ p{
 
 }
 .search{
-    display:grid;
-    
-    grid-template-columns: 1fr 1fr;
+   display: flex;
 }
 .corner{
     display:grid;
@@ -96,7 +95,7 @@ p{
     height: 40px;
 }
 .flex1{
-    margin-right: -30px;
+    margin-right: -100px;
 }
 .login a{
     border: 2px solid black;
@@ -116,7 +115,8 @@ p{
    
 }
 .search{
-    margin-left: 500px;
+    margin-left: 250px;
+    
 }
 .mic img{
     margin-top: 8px;
@@ -129,11 +129,16 @@ p{
 
 }
 .corner{
-    margin-left: -70px;
+    margin-left:200px;
 }
 .menu{
+    
     float: left ;
     width: 6%;
+}
+
+.menu div{
+    margin-left:15px ;
 }
 .total{
     float: right;
