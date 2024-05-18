@@ -6,7 +6,11 @@ A Youtube UI Clone with Some Basic Functtionalities.
 
 ## Features
 
-- Working on features (Will be Updated Soon)
+- YouTube Home Page
+- Play Video and Home Page Feed
+- Search Videos
+- View Channels Pages
+- Premium Page,SignUp,Login Pages
 
 
 ## Demo
