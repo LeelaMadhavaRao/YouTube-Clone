@@ -104,7 +104,7 @@ p {
     width: 96%;
 }
 .action-buttons {
-    margin-left: 200px;
+    margin-left: 100px;
     height: 100%;
     width: 250px;
     display: flex;
@@ -135,6 +135,7 @@ p {
     height: 50px;
     background-color: white;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     position:fixed;
@@ -149,9 +150,9 @@ p {
 }
 .search-bar{
     height: 100%;
-    width: 600px;
+    width: 300px;
     /* background-color: bisque; */
-    margin-left: 355px;
+    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,3 +195,13 @@ p {
     width: 100%;
     min-height: 300px;
 }
+
+
+
+
+
+
+
+
+
+
