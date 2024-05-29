@@ -22,8 +22,9 @@ body{
 }
 .search-bar{
     height: 100%;
-    width: 600px;
+    width: 300px;
     /* background-color: bisque; */
+    margin-left: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
